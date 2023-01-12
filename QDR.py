@@ -14,7 +14,7 @@ import datetime
 from datetime import datetime
 
 #Change the file name as date
-src = r'\\na.micron.com\root\Common\MMT\Secure\DA\SHARE_RAW\QDR\LotStatusWithCQDR.csv'
+src = r'orginal_file_download_folder'
 dst = r'C:\Users\wendysu\Desktop\QDR'
 folder_time = datetime.now().strftime('%Y%m%d')
 dst1 = dst + '\LotStatusWithCQDR-' + folder_time + '.csv'
